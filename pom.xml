@@ -13,6 +13,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <distributionManagement>
+        <repository>
+            <id>demloyment</id>
+            <name> Internal Releases </name>
+            <url>http://localhost:8081/repository/SNAP-release/</url>
+        </repository>
+     <snapshotRepository>
+            <id>demloyment</id>
+            <name> Internal Releases </name>
+            <url>http://localhost:8081/repository/SNAP-snap/</url>
+        </snapshotRepository>
+    </distributionManagement>
  
   <dependencies>
     <dependency>
