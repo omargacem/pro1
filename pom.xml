@@ -25,17 +25,18 @@
         </configuration>
       </plugin>
      </plugins>  
-    </build>  
-    
-  <build>
-  <servers>
+    <servers>
         <server>
             <id>nexus</id>
             <username>admin</username>
             <password>admin123</password>
         </server>
     </servers>
-  </build>
+    </build>  
+    
+  
+  
+
     
   <distributionManagement>
         <repository>
