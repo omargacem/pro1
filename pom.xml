@@ -22,9 +22,7 @@
       <configuration>
           <source>1.7</source>
           <target>1.7</target>
-        </configuration>
-     
-     
+       
     <servers>
         <server>
             <id>nexus</id>
@@ -32,6 +30,8 @@
             <password>admin123</password>
         </server>
     </servers>
+       
+        </configuration>
          </plugin>
       </plugins>  
     </build>  
