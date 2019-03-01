@@ -14,28 +14,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
- <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.8.0</version>
-    <configuration>
-        <release>7</release>
-    </configuration>
-</plugin>
-  
-  <distributionManagement>
-        <repository>
-            <id>demloyment</id>
-            <name> Internal Releases </name>
-            <url>http://localhost:8081/repository/SNAP-release/</url>
-        </repository>
-     <snapshotRepository>
-            <id>demloyment</id>
-            <name> Internal Releases </name>
-            <url>http://localhost:8081/repository/SNAP-snap/</url>
-        </snapshotRepository>
-    </distributionManagement>
-  
+  <properties>
+        <jdk.version>11</jdk.version>
+  </properties>
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
