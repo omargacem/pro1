@@ -22,7 +22,7 @@
       <configuration>
           <source>1.7</source>
           <target>1.7</target>
-        
+        <servers> <server> <id>sonatype-nexus-staging</id> <username>your-jira-id</username> <password>your-jira-pwd</password></server> </servers> 
         </configuration>
          </plugin>
       </plugins>  
