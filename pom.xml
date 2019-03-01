@@ -23,7 +23,7 @@
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
-      </plugin>
+     
      
     <servers>
         <server>
@@ -32,6 +32,7 @@
             <password>admin123</password>
         </server>
     </servers>
+         </plugin>
       </plugins>  
     </build>  
     
