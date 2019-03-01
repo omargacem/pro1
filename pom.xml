@@ -14,6 +14,17 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
+  <build>
+    <plugins>
+      <plugin>
+   <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+     </plugins>  
+    </build>  
+    
   <distributionManagement>
         <repository>
             <id>demloyment</id>
